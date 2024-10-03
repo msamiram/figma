@@ -1,0 +1,169 @@
+body {
+    max-width: 1440px;
+    font-family: "Roboto";
+    padding: 2.5vh 10vw;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 55px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.upper p {
+    font-size: 24px;
+}
+
+.lower p {
+    font-size: 18px;
+}
+
+.main-text {
+    width: 55%;
+}
+
+.first-img {
+    width: 290px;
+    position: relative;
+}
+
+
+.lower {
+    /* width: 1002px; */
+    width: 87%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+.duriation{
+    width: 15%;
+}
+
+.second-img {
+    width: 222px;
+    height: 194px;
+    position: relative;
+}
+
+.ellips {
+    box-sizing: border-box;
+    width: 343px;
+    height: 59px;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+    margin-top: -29px;
+
+}
+
+.shadow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow-small {
+    /* padding-right: 100px; */
+    display: block;
+
+}
+
+.ellips-small {
+    box-sizing: border-box;
+    width: 189px;
+    height: 32px;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: -20px;
+
+}
+
+
+
+@media (max-width: 834px) {
+    h1 {
+        font-size: 32px;
+        text-align: left;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .upper p {
+        font-size: 14px;
+    }
+
+    .lower p {
+        font-size: 11px;
+    }
+
+
+    /* .main-text {
+        width: 384px;
+    } */
+
+    .first-img {
+        width: 164px;
+    }
+
+    .ellips {
+        width: 193px;
+        height: 34px;
+        margin-top: -19px;
+
+    }
+
+    .shadow-small {
+        display: none;
+    }
+
+    .lower {
+        width: 65%;
+        justify-content: space-between;
+    }
+
+    .lower div {
+        width: 25%;
+
+    }
+
+}
+
+@media (max-width: 375px) {
+    .main-text {
+        width: 100%
+    }
+
+    .first-img {
+        width: 75%;
+    }
+
+    .lower {
+        flex-wrap: wrap;
+    }
+    .lower div {
+        width: 40%;
+
+    }
+    .upper {
+        flex-wrap: wrap;
+    }
+
+}
